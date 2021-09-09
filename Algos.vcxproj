@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="include\DNA.h" />
+    <ClInclude Include="include\Swap.h" />
+    <ClInclude Include="include\insertSort.h" />
+    <ClInclude Include="include\bubbleSort.h" />
+    <ClInclude Include="include\UniqueNum.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\diffAlgos.cpp" />

@@ -18,6 +18,18 @@
     <ClInclude Include="include\DNA.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\UniqueNum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\insertSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Swap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bubbleSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\diffAlgos.cpp">
