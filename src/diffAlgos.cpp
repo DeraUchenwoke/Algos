@@ -12,7 +12,7 @@ int main() {
 
 	// Algo 2: insertSort
 	int a[5] = { 4, 1, 3, 2, 5 }; 
-	//insertSort(a);
+	// insertSort(a);
 
 	// Algo 3: 
 
