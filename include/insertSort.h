@@ -16,7 +16,7 @@ void insertSort(int (&arr)[5])
 			j--; // Decrement j.
 		}
 
-		arr[j + 1] = pos; // Puts 
+		arr[j + 1] = pos; // Assigns arr[j + 1] as the new arr[i].
 	}
 
 	// Output array into console. 

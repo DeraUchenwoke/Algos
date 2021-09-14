@@ -8,7 +8,7 @@ void bubbleSort(std::vector<int>& arr) {
 	{
 		for (int j = 1; j < arr.size(); j++)
 		{
-			double temp = 0;
+			int temp = 0;
 
 			if (arr[j] < arr[j - 1])
 			{
@@ -17,5 +17,11 @@ void bubbleSort(std::vector<int>& arr) {
 				arr[j - 1] = temp;
 			}
 		}
+	}
+
+	// Output array into console. 
+	for (int i : arr)
+	{
+		std::cout << i << " ";
 	}
 }
