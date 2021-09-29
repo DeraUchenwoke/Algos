@@ -1,15 +1,10 @@
-#include <iostream>
-#include "../include/insertSort.h"
-#include "../include/bubbleSort.h"
+#include "../include/Sorting/bubbleSort.h"
+#include "../include/Sorting/insertSort.h"
+#include "../include/Sorting/selectionSort.h"
+#include "../include/Miscellaneous/firstDuplicate.h"
 
 int main() {
 
-	// Algo 1: insertSort
-	int a[5] = { 4, 1, 3, 2, 5 }; 
-	insertSort(a);
-
-	// Algo 2: bubbleSort 
-	std::vector<int> b = { -5, 8, 2, -3, 4, 100 }; 
-	// bubbleSort(b); 
-
+	std::vector<int> a = { -5, -10, -3, -3, 4, -5 };
+	cout << firstDuplicate(a); 
 }

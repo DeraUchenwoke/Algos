@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 
-void bubbleSort(std::vector<int>& arr) {
+void bubbleSort(std::vector<int> &arr) {
 
 	for (int i = 1; i < arr.size(); i++)
 	{

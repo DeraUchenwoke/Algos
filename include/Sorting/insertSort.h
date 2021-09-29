@@ -1,11 +1,13 @@
-#pragma once
+#pragma once 
 #include <iostream>
+#include <vector>
 
-void insertSort(int (&arr)[5])
+void insertSort(std::vector<int> &arr)
 {
 	int pos, j;
+	int len = arr.size(); 
 
-	for (int i = 1; i < 5; i++)
+	for (int i = 1; i < len; i++)
 	{
 		j = i - 1; // Position just before the key.
 		pos = arr[i]; // Stored the current value in the array at i. 
@@ -19,10 +21,25 @@ void insertSort(int (&arr)[5])
 		arr[j + 1] = pos; // Assigns arr[j + 1] as the new arr[i].
 	}
 
-	// Output array into console. 
-	for (int i : arr)
+	int count = 0; 
+	int test[6] = { 3, 2, 4, 8, 7, 9 }; // expect count = 2
+
+	for (int i = 1; i < len; i++)
 	{
-		std::cout << i << " "; 
+		if (test[i] < test[i - 1])
+		{
+			count++; 
+		}
+	}
+
+	if (count > 0)
+	{
+		std::cout << "FAIL: "<< count << " unsorted elements"; 
+	}
+
+	else
+	{
+		std::cout << "DETROS"; 
 	}
 }
 
