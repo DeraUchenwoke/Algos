@@ -2,9 +2,10 @@
 #include "../include/Sorting/insertSort.h"
 #include "../include/Sorting/selectionSort.h"
 #include "../include/Miscellaneous/firstDuplicate.h"
+#include "../include/Miscellaneous/centuryYear.h"
 
 int main() {
 
-	std::vector<int> a = { -5, -10, -3, -3, 4, -5 };
-	cout << firstDuplicate(a); 
+	int year = 1701;
+	cout << year << " is in the " << centuryFromYear(year) << "th century";
 }
