@@ -3,9 +3,13 @@
 #include "../include/Sorting/selectionSort.h"
 #include "../include/Miscellaneous/firstDuplicate.h"
 #include "../include/Miscellaneous/centuryYear.h"
+#include "../include/Miscellaneous/palindromeCheck.h"
+#include "../include/Miscellaneous/bdayCandles.h"
 
 int main() {
 
-	int year = 1701;
-	cout << year << " is in the " << centuryFromYear(year) << "th century";
+	vector<int> candles = { 3, 2, 1, 3 };
+	int sizeArr = candles.size();
+
+	birthdayCakeCandles(sizeArr, candles);
 }

@@ -142,6 +142,7 @@
     <ClInclude Include="include\insertSort.h" />
     <ClInclude Include="include\bubbleSort.h" />
     <ClInclude Include="include\Miscellaneous\firstDuplicate.h" />
+    <ClInclude Include="include\Miscellaneous\bdayCandles.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\diffAlgos.cpp" />
