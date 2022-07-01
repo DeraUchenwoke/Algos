@@ -143,6 +143,8 @@
     <ClInclude Include="include\bubbleSort.h" />
     <ClInclude Include="include\Miscellaneous\firstDuplicate.h" />
     <ClInclude Include="include\Miscellaneous\bdayCandles.h" />
+    <ClInclude Include="include\Miscellaneous\attributeParser.h" />
+    <ClInclude Include="include\Miscellaneous\timeConversion.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\diffAlgos.cpp" />

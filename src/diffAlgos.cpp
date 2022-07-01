@@ -5,11 +5,19 @@
 #include "../include/Miscellaneous/centuryYear.h"
 #include "../include/Miscellaneous/palindromeCheck.h"
 #include "../include/Miscellaneous/bdayCandles.h"
+#include "../include/Miscellaneous/timeConversion.h"
+#include "../include/Miscellaneous/attributeParser.h"
 
 int main() {
 
-	vector<int> candles = { 3, 2, 1, 3 };
-	int sizeArr = candles.size();
+    string str;
+    cin >> str;
 
-	birthdayCakeCandles(sizeArr, candles);
+    vector<int> integers = parseInts(str);
+
+    for (int i = 0; i < integers.size(); i++) {
+        cout << integers[i] << "\n";
+    }
+
+    return 0; 
 }

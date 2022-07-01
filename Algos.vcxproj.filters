@@ -27,6 +27,12 @@
     <ClInclude Include="include\Miscellaneous\bdayCandles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\Miscellaneous\timeConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Miscellaneous\attributeParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\diffAlgos.cpp">
