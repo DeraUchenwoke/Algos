@@ -3,9 +3,8 @@
 #include <vector>
 #include <iostream>
 #include <typeinfo> // To check type do typeid(variable).name()
-using namespace std;
 
-vector<int> parseInts(string str) {
+std::vector<int> parseInts(std::string str) {
     // Example input string = "45,322,1211"
     const char seperator = ','; // Define seperator.
     std::stringstream streamData(str); // Converts string to stream.
