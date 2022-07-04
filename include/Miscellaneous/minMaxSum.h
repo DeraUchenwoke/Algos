@@ -9,41 +9,32 @@
 // I.e., arr = {3, 3, 91, 10, 82} -> minSum = 3 + 3 + 10 + 82 = 98 & maxSum = 91 + 82 + 10 + 3 = 98; 
 // Range 0 <= val <= 10^9 integers.
 
-std::tuple<int, int> maxMinIndex(std::vector<int> arr) {
-
-    int tempMaxIndex = 0;
-    int tempMinIndex = 0;
-
-    std::vector<int>::iterator resultMin = std::min_element(arr.begin(), arr.end());
-    std::vector<int>::iterator resultMax = std::max_element(arr.begin(), arr.end());
-
-    tempMinIndex = std::distance(arr.begin(), resultMin);
-    tempMaxIndex = std::distance(arr.begin(), resultMax);
-
-    return std::make_tuple(tempMinIndex, tempMaxIndex);
-}
-
 void minMaxSum(std::vector<int> arr) {
 
-    int minIndex = 0;
-    int maxIndex = 0;
-    std::tie(minIndex, maxIndex) = maxMinIndex(arr); // Enables both values of maxMinIndex function to be returned.
+    long long int Max = arr[0];
+    long long int Min = arr[0];
+    long long int MaxSum = 0; 
+    long long int MinSum = 0;
+    long long int Total = 0;
 
-    long long int sumMax = 0;
-    long long int sumMin = 0;
+    for (int val = 0; val < arr.size(); val++) { 
 
-    for (int i = 0; i < arr.size(); i++) {
-        if (i != minIndex) {
-            sumMax += arr[i];
+        if (arr[val] > Max) {
+            Max = arr[val];
         }
 
-        if (i != maxIndex) {
-            sumMin += arr[i];
+        else if (arr[val] < Min) {
+            Min = arr[val]; 
+
         }
+        Total += arr[val];
     }
 
-    std::cout << sumMin << " " << sumMax << std::endl;
+    MinSum = Total - Max; 
+    MaxSum = Total - Min; 
 
-    // Time complexity = O(N)
+    std::cout << MaxSum << " " << MinSum << std::endl;
+
+    
 }
 
