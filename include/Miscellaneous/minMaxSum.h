@@ -1,8 +1,6 @@
 #pragma once
 #include <iostream>
 #include <vector>
-#include <algorithm>
-#include <tuple>
 
 // Calculates the smallest largest and smallest of n-1 values of an array. 
 // I.e., arr = {42, 3, 82, 91, 10} -> minSum = 3 + 10 + 42 + 82 = 137 & maxSum = 91 + 82 + 42 + 10 = 225
