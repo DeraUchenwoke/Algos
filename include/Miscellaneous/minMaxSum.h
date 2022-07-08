@@ -13,7 +13,7 @@ void minMaxSum(std::vector<int> arr) {
     long long int min = arr[0];
     long long int total = 0;
 
-    for (int val = 0; val < arr.size(); ++val) { 
+    for (size_t val = 0; val < arr.size(); ++val) { 
 
         if (arr[val] > max) {
             max = arr[val];
