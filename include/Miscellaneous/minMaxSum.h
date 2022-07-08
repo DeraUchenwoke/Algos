@@ -9,30 +9,26 @@
 
 void minMaxSum(std::vector<int> arr) {
 
-    long long int Max = arr[0];
-    long long int Min = arr[0];
-    long long int MaxSum = 0; 
-    long long int MinSum = 0;
-    long long int Total = 0;
+    long long int max = arr[0];
+    long long int min = arr[0];
+    long long int total = 0;
 
-    for (int val = 0; val < arr.size(); val++) { 
+    for (int val = 0; val < arr.size(); ++val) { 
 
-        if (arr[val] > Max) {
-            Max = arr[val];
+        if (arr[val] > max) {
+            max = arr[val];
         }
 
-        else if (arr[val] < Min) {
-            Min = arr[val]; 
+        else if (arr[val] < min) {
+            min = arr[val]; 
 
         }
-        Total += arr[val];
+        total += arr[val];
     }
 
-    MinSum = Total - Max; 
-    MaxSum = Total - Min; 
+    long long int min_sum = total - max; 
+    long long int max_sum = total - min; 
 
-    std::cout << MaxSum << " " << MinSum << std::endl;
-
-    
+    std::cout << min_sum << " " << max_sum << std::endl;
 }
 
