@@ -1,3 +1,2 @@
 # Algos-CPP
-Place to post the solutions of some of my C++ solutions to Hackerrank problems :thought_balloon:.  
-Mainly for fun and to become more familiar with the language. 
+Place to post the solutions of some of my C++ solutions to Hackerrank problems & exercicses within Introduction to Algorithms by Thomas Corman :thought_balloon:.  
