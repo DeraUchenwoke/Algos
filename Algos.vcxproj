@@ -146,6 +146,7 @@
     <ClInclude Include="include\Miscellaneous\attributeParser.h" />
     <ClInclude Include="include\Miscellaneous\minMaxSum.h" />
     <ClInclude Include="include\Miscellaneous\timeConversion.h" />
+    <ClInclude Include="include\Sorting\insertionSort.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\diffAlgos.cpp" />
