@@ -1,6 +1,4 @@
 //#include "../include/Sorting/bubbleSort.h"
-//#include "../include/Sorting/insertSort.h"
-//#include "../include/Sorting/selectionSort.h"
 //#include "../include/Miscellaneous/firstDuplicate.h"
 //#include "../include/Miscellaneous/centuryYear.h"
 //#include "../include/Miscellaneous/palindromeCheck.h"
