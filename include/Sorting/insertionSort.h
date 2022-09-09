@@ -12,7 +12,7 @@ void insertSort()
 	
 		int j = i - 1;
 
-		while (j >= 0 && arr[j] > key) 
+		while (j >= 0 && arr[j] < key) // arr[i] < key -> sorts in nonincreasing order 
 		{
 			arr[j + 1] = arr[j]; // shifts value 'upwards', arr[j] to the next index 
 
