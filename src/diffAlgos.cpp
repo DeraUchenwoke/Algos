@@ -6,7 +6,8 @@
 //#include "../include/Miscellaneous/timeConversion.h"
 //#include "../include/Miscellaneous/attributeParser.h"
 //#include "../include/Miscellaneous/minMaxSum.h"
-#include "../include/Sorting/insertionSort.h"
+//#include "../include/Sorting/insertionSort.h"
+#include "../include/Miscellaneous/binaryAddition.h"
 
 # include <vector>
 # include <iostream>
@@ -23,8 +24,10 @@ int main() {
     //    std::cin >> userInput;
     //    arr.push_back(userInput);
     //}
+    
+    binaryAddition(); 
 
-    insertSort();
+
 
     return 0;
 }

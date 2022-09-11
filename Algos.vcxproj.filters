@@ -39,6 +39,9 @@
     <ClInclude Include="include\Sorting\insertionSort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\Miscellaneous\binaryAddition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\diffAlgos.cpp">
