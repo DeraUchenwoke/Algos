@@ -152,6 +152,7 @@
     <ClInclude Include="include\Miscellaneous\minMaxSum.h" />
     <ClInclude Include="include\Miscellaneous\timeConversion.h" />
     <ClInclude Include="include\Sorting\insertionSort.h" />
+    <ClInclude Include="include\Sorting\selectionSort.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\diffAlgos.cpp" />

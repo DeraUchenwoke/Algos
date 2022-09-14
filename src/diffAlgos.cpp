@@ -7,9 +7,9 @@
 //#include "../include/Miscellaneous/attributeParser.h"
 //#include "../include/Miscellaneous/minMaxSum.h"
 //#include "../include/Sorting/insertionSort.h"
-#include "../include/Miscellaneous/binaryAddition.h"
+//#include "../include/Miscellaneous/binaryAddition.h"
+#include "../include/Sorting/selectionSort.h"
 
-# include <vector>
 # include <iostream>
 
 int main() {
@@ -25,7 +25,7 @@ int main() {
     //    arr.push_back(userInput);
     //}
     
-    binaryAddition(); 
+    selectSort(); 
 
 
 
