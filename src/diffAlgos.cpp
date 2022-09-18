@@ -1,15 +1,4 @@
-//#include "../include/Sorting/bubbleSort.h"
-//#include "../include/Miscellaneous/firstDuplicate.h"
-//#include "../include/Miscellaneous/centuryYear.h"
-//#include "../include/Miscellaneous/palindromeCheck.h"
-//#include "../include/Miscellaneous/bdayCandles.h"
-//#include "../include/Miscellaneous/timeConversion.h"
-//#include "../include/Miscellaneous/attributeParser.h"
-//#include "../include/Miscellaneous/minMaxSum.h"
-//#include "../include/Sorting/insertionSort.h"
-//#include "../include/Miscellaneous/binaryAddition.h"
-#include "../include/Sorting/selectionSort.h"
-
+# include "../include/Sorting/mergeSort.h"; 
 # include <iostream>
 
 int main() {
@@ -25,8 +14,7 @@ int main() {
     //    arr.push_back(userInput);
     //}
     
-    selectSort(); 
-
+    mergeSort(); 
 
 
     return 0;
