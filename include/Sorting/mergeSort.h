@@ -4,6 +4,7 @@
 void mergeSort()
 {
 	// For when A.length is even.
+	// Also assumes L ={31, 41, 59} and R = {26, 41, 58} subarrays are already sorted.
 	const unsigned short int size = 6;
 	int A[size] = { 31, 41, 59, 26, 41, 58}; 
 
@@ -48,25 +49,4 @@ void mergeSort()
 	{
 		std::cout << x << "\n"; 
 	}
-
-	//for (int x : L)
-	//{
-	//	std::cout << x << "\n"; 
-	//}	
-	//
-	//std::cout << "-------" << "\n"; 
-
-	//for (int y : R)
-	//{
-	//	std::cout << y << "\n"; 
-	//}
-
-
-	
-
-	
-
-	// terminate when sentinel is reached?
-	
-
 }
