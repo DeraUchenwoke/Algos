@@ -4,7 +4,7 @@
 void mergeSort()
 {
 	// For when A.length is even.
-	// Also assumes L ={31, 41, 59} and R = {26, 41, 58} subarrays are already sorted.
+	// Also assumes L = {31, 41, 59} and R = {26, 41, 58} subarrays are already sorted.
 	const unsigned short int size = 6;
 	int A[size] = { 31, 41, 59, 26, 41, 58}; 
 
