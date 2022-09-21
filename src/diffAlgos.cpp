@@ -59,6 +59,11 @@ int main() {
         o[i] = o[i] + 1.0; // occurences of each letter.
     }
     
+    for (auto& p : o)
+    {
+        std::cout << p.first << " -> " << ((p.second) * 100) / plain_text.size() << "\n";
+    }
+    
     // Input frequency of letters into seperate vector from map o.
     for (int i = 0; i < plain_text.size(); ++i)
     {
@@ -66,17 +71,17 @@ int main() {
     }
 
     int i = 0;
-    int j = 0;
 
     while (i < v.size())
     {
 
         double percent = (v[i] * 100) / v.size();
 
-        auto it = a.lower_bound(percent); // lower bound gives key >= wanted key
-        
+        auto it = a.lower_bound(percent); // lower bound gives key >= wanted key (map is already ordered
+
         if (it != a.end())
         {
+
             auto upper = it->first;
             auto lower = 0.0;
 
@@ -102,9 +107,19 @@ int main() {
         }
 
         ++i; 
-        
+
+        if (it == a.begin())
+        {
+            std::cout << it->second << " "; 
+        }
+
+        if (it == a.end())
+        {
+            --it; 
+            std::cout << it->second << " ";
+        }
+
     }
 
-  
     return 0;
 }
