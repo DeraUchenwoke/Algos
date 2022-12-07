@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="include\insertSort.h" />
     <ClInclude Include="include\bubbleSort.h" />
+    <ClInclude Include="include\Leetcode\isomorphicStrings.h" />
     <ClInclude Include="include\Miscellaneous\binaryAddition.h" />
     <ClInclude Include="include\Miscellaneous\firstDuplicate.h" />
     <ClInclude Include="include\Miscellaneous\bdayCandles.h" />
