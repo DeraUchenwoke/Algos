@@ -1,13 +1,13 @@
-# include <iostream>
-# include <../Leetcode/DynamicProgramming/NthTribonacciNumber.h>
+#include <iostream>
+#include <vector>
+# include <../Leetcode/Array/ContainerWithMostWater.h>
 
 using namespace std;
 
 int main() {
 
-    int num = 3; 
+    vector<int> height = { 1,8,6,2,5,4,8,3,7 };
 
-    cout << tribonacci(num); 
+    cout << maxArea(height); 
 
-    return 0;
 }
