@@ -48,7 +48,7 @@
     <ClInclude Include="include\Sorting\mergeSort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Leetcode\isomorphicStrings.h">
+    <ClInclude Include="include\Leetcode\Strings\isomorphicStrings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
