@@ -146,6 +146,7 @@
     <ClInclude Include="include\insertSort.h" />
     <ClInclude Include="include\bubbleSort.h" />
     <ClInclude Include="include\Leetcode\Array\ContainerWithMostWater.h" />
+    <ClInclude Include="include\Leetcode\DynamicProgramming\isSubsequence.h" />
     <ClInclude Include="include\Leetcode\DynamicProgramming\minCostClimbingStairs.h" />
     <ClInclude Include="include\Leetcode\DynamicProgramming\NthTribonacciNumber.h" />
     <ClInclude Include="include\Leetcode\Strings\isomorphicStrings.h" />

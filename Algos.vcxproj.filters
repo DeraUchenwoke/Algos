@@ -60,6 +60,9 @@
     <ClInclude Include="include\Leetcode\DynamicProgramming\minCostClimbingStairs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\Leetcode\DynamicProgramming\isSubsequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\diffAlgos.cpp">
