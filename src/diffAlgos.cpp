@@ -1,14 +1,28 @@
 #include <iostream>
 #include <vector>
-#include <../Leetcode/DynamicProgramming/isSubsequence.h>
+#include <../Leetcode/DynamicProgramming/pascalsTriangle.h>
 
 using namespace std;
 
 int main() {
 
-    string s = "abc"; 
-    string t = "ahbgdc";
-    
-    cout << isSubsequence(s, t); 
+	int numRows = 30; 
+
+	vector<vector<int>> pascalTriangle = generate(numRows);
+
+	cout << "["; 
+	int i = 0;
+
+	for (auto row : pascalTriangle) {
+
+		cout << "["; 
+		for (auto col : row) {
+			
+			cout << col;
+			++i;	
+		}
+		cout << "]"; 
+	}
+	cout << "]";
 
 }

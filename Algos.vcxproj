@@ -149,6 +149,7 @@
     <ClInclude Include="include\Leetcode\DynamicProgramming\isSubsequence.h" />
     <ClInclude Include="include\Leetcode\DynamicProgramming\minCostClimbingStairs.h" />
     <ClInclude Include="include\Leetcode\DynamicProgramming\NthTribonacciNumber.h" />
+    <ClInclude Include="include\Leetcode\DynamicProgramming\pascalsTriangle.h" />
     <ClInclude Include="include\Leetcode\Strings\isomorphicStrings.h" />
     <ClInclude Include="include\Miscellaneous\binaryAddition.h" />
     <ClInclude Include="include\Miscellaneous\firstDuplicate.h" />
